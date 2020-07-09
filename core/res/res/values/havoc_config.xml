@@ -108,7 +108,7 @@
     <bool name="config_hasWarpCharger">false</bool>
 
     <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_enableSmartPixels">false</bool>
+    <bool name="config_enableSmartPixels">true</bool>
 
     <!-- Whether device has notification LED -->
     <bool name="config_hasNotificationLed">true</bool>
@@ -264,7 +264,7 @@
           32 - Camera
        For example, a device with Back, Home and AppSwitch keys would set this
        config to 19. -->
-    <integer name="config_deviceHardwareKeys">0</integer>
+    <integer name="config_deviceHardwareKeys">7</integer>
 
     <!-- Control the behavior when the user long presses or double taps one of the below keys.
           0 - Nothing
@@ -287,8 +287,8 @@
           17 - Kill app
        This needs to match the constants in
        services/core/java/com/android/server/policy/PhoneWindowManager.java -->
-    <integer name="config_longPressOnHomeKeyBehavior">3</integer>
-    <integer name="config_doubleTapOnHomeKeyBehavior">6</integer>
+    <integer name="config_longPressOnHomeKeyBehavior">0</integer>
+    <integer name="config_doubleTapOnHomeKeyBehavior">0</integer>
     <integer name="config_longPressOnMenuKeyBehavior">0</integer>
     <integer name="config_doubleTapOnMenuKeyBehavior">0</integer>
     <integer name="config_longPressOnBackKeyBehavior">0</integer>
@@ -301,7 +301,7 @@
     <integer name="config_doubleTapOnCameraKeyBehavior">0</integer>
 
     <!-- Button brightness -->
-    <bool name="config_button_brightness_support">false</bool>
+    <bool name="config_button_brightness_support">true</bool>
     <integer name="config_button_brightness_default">128</integer>
 
     <!-- Whether device has a notch -->
