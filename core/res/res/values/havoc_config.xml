@@ -16,6 +16,9 @@
 -->
 <resources>
 
+    <!-- True if your device have home button and want to use it as wake button-->
+    <bool name="config_enableHomeButtonWake">true</bool>
+
     <!-- Power menu -->
     <string-array translatable="false" name="config_custom_globalActionsList">
         <item>power</item>
