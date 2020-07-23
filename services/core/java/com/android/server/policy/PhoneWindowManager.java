@@ -4808,7 +4808,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                 break;
             }
 
-            {case KeyEvent.KEYCODE_HOME:
+            case KeyEvent.KEYCODE_HOME:
                 if (down && !interactive && mHomeButtonWake) {
                     isWakeKey = true;
                 }
